@@ -31,13 +31,25 @@ Streamlit application that detects and visualizes soft skills in text using a **
 
    ```bash
    git clone https://github.com/RG-PEEC/esco_softskills_dashboard.git
+   ```
+
+   ```bash
    cd <your-repo>
+   ```
+
+```bash
    python -m venv .venv
+```
+```bash
    # macOS/Linux
    source .venv/bin/activate
+```
+```bash
+
    # Windows (PowerShell)
    # .venv\Scripts\Activate.ps1
-
+```
+```bash
    python -m pip install --upgrade pip
    pip install -r requirements.txt
    ```
